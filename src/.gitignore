@@ -1,0 +1,23 @@
+# .gitignore
+# DVC directories
+.dvc/cache/
+.dvc/tmp/
+.dvc/state
+
+# Data and models (DVC will track these via .dvc files)
+data/
+models/
+metrics.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints
+
+# Environment
+ml_venv/
+env/
+.venv/
